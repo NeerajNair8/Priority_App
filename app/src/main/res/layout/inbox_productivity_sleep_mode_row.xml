@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/octopus1"
+        android:layout_width="82dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/facebook" />
+
+    <LinearLayout
+        android:layout_width="309dp"
+        android:layout_height="119dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="302dp"
+            android:layout_height="56dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/nameTextViewID"
+                android:layout_width="188dp"
+                android:layout_height="match_parent"
+                android:text="APP NAME"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/infoTextViewID"
+                android:layout_width="116dp"
+                android:layout_height="34dp"
+                android:text="TIME"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/infoTextViewID2"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:text="MESSAGE"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
